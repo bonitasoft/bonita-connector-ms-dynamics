@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${dynamics-query-entities.impl.id}</implementationId>
+  <implementationVersion>${dynamics-query-entities.impl.version}</implementationVersion>
+  <definitionId>${dynamics-query-entities.def.id}</definitionId>
+  <definitionVersion>${dynamics-query-entities.def.version}</definitionVersion>
+  <implementationClassname>${dynamics-query-entities.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>Microsoft Dynamics 365 Query Entities connector implementation</description>
+${connector-dependencies}
+</implementation:connectorImplementation>
